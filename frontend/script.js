@@ -1,3 +1,31 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const resultado = document.getElementById("resultado")
+
+  const mostrarResultado = async (url) => {
+    try {
+      const res = await fetch(url)
+      if (!res.ok) throw new Error("Error en la petición")
+      const data = await res.body.json()
+      resultado.textContent = JSON.stringify(data, null, 2)
+    } catch (err) {
+      resultado.textContent = "Error: " + err.message
+    }
+  }
+
+  document.getElementById("btnBienvenida").addEventListener("click", () => {
+    mostrarResultado("http://localhost:4000/")
+  })
+
+  document.getElementById("btnRutas").addEventListener("click", () => {
+    mostrarResultado("http://localhost:3000/rutas")
+  })
+
+  document.getElementById("btnDatos").addEventListener("click", () => {
+    mostrarResultado("http://localhost:3000/api/mascotas")
+  })
+})
+
+
 document.addEventListener("submit", async (e) => {
 e.preventDefault()
     const nombre = document.getElementById("nombre").value

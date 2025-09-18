@@ -21,7 +21,7 @@ git clone https://github.com/PiaAchigarITBA/clase8_ejercicio_server_con_error.gi
 
 ⚠️ Recuerda usar el comando `cd` para acceder a las carpetas. Primero al "proyecto" y luego a "server_con_errores"
 <br>
- `cd carpeta_proyecto` 
+ `cd clase9_ejercicio_server_con_errores` 
 <br/>
 `cd server_con_errores`
 <br/>
