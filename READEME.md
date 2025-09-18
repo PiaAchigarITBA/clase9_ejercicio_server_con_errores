@@ -19,7 +19,7 @@ Te invitamos a clonar el repositorio, identificar y corregir los errores para qu
 git clone https://github.com/PiaAchigarITBA/clase8_ejercicio_server_con_error.git
 ```
 
-⚠️ Recuerda usar el comando `cd` para acceder a las carpetas. Primero a "proyecto_clase9" y luego a "server_con_errores": `cd proyecto_clase9` 
+⚠️ Recuerda usar el comando `cd` para acceder a las carpetas. Primero a "proyecto" y luego a "server_con_errores": `cd proyecto` 
 Luego :  `cd server_con_errores`
 
 <br/>
