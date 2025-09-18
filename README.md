@@ -1,6 +1,6 @@
 ## Curso Full Stack - Clase 9
 ### Sprint 3 - Ejercicio de Práctica
-Este repositorio contiene un Proyecto_clase9 con servidor API de Mascotas. Sin embargo, la API presenta errores que impiden su correcto funcionamiento.
+Este repositorio contiene un Proyecto con un frontend básico y un servidor API de Mascotas. Sin embargo, el servidor presenta errores que impiden su correcto funcionamiento.
 
 Te invitamos a clonar el repositorio, identificar y corregir los errores para que la API cumpla con su funcionalidad original.
 
